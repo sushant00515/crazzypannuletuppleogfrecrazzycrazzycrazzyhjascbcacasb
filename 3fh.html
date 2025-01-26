@@ -442,10 +442,7 @@ function showLoading() {
     const processingDiv = document.getElementById('processing');
     processingDiv.classList.remove('none'); // Show the loading animation
 
-    setTimeout(() => {
-        processingDiv.classList.add('none'); // Hide it after 4 seconds
-        alert('Payment Processed Successfully!'); // Example callback
-    }, 4000);
+
 }
 
 // Example usage: Call showLoading when the user clicks the "Continue" button
